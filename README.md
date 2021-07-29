@@ -1,6 +1,6 @@
 ## Register Simulator. 
 
-### This is a simple design very well known as CRUD (create, read, update and delete). It is meant to show how easy it is to develop that part in any project. 
+### This is a simple design very well known as CRUD (create, read, update and delete). It is meant to show how easy it is to develop that part in any project using only Flutter. 
 
 ### 0.1 - This is what the layout looks like:
 <img src="https://github.com/M-antunes/CRUD/blob/main/CRUD/home.png" height="500">
