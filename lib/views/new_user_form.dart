@@ -47,33 +47,33 @@ class _NewUserFormState extends State<NewUserForm> {
           child: Column(
             children: [
               TextFormField(
-                decoration: InputDecoration(labelText: "Nome"),
+                decoration: InputDecoration(labelText: "Name"),
                 validator: (value) {
                   if (value == null || value.trim().isEmpty) {
-                    return "Nome Inválido.";
+                    return "Invlid name.";
                   }
                   if (value.trim().length < 3) {
-                    return 'Nome pequeno demais. Mínimo de 3 caracteres.';
+                    return 'Too short. Minimum of 3 letters';
                   }
                   return null;
                 },
                 onSaved: (value) => _formData['name'] = value!,
               ),
               TextFormField(
-                decoration: InputDecoration(labelText: "E-mail"),
+                decoration: InputDecoration(labelText: "Email"),
                 onSaved: (value) => _formData['email'] = value!,
                 validator: (value) {
                   if (value == null || value.trim().isEmpty) {
-                    return "Por favor insira um e-mail válido.";
+                    return "Please insert a valid email.";
                   }
                   if (value.trim().contains('.com') == false) {
-                    return 'Por favor insira um e-mail válido.';
+                    return "Please insert a valid email.";
                   }
                   return null;
                 },
               ),
               TextFormField(
-                decoration: InputDecoration(labelText: "URL do Avatar"),
+                decoration: InputDecoration(labelText: "Avatar URL"),
                 onSaved: (value) => _formData['avatarUrl'] = value!,
               )
             ],
