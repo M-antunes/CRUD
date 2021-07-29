@@ -1,16 +1,22 @@
-# register_simulator
+## Register Simulator. 
 
-A new Flutter project.
+### This is a simple design very well known as CRUD (create, read, update and delete). It is meant to show how easy it is to develop that part in any project. 
 
-## Getting Started
+### 0.1 - This is what the layout looks like:
+<img src="https://github.com/M-antunes/CRUD/blob/main/CRUD/home.png" height="500">
 
-This project is a starting point for a Flutter application.
+### 0.2 - This is what the form looks like:
+<img src="https://github.com/M-antunes/CRUD/blob/main/CRUD/form.png" height="500">
 
-A few resources to get you started if this is your first Flutter project:
+### 0.3 - This is displaying the mistakes when validation is unmatched:
+<img src="https://github.com/M-antunes/CRUD/blob/main/CRUD/form_validation.png" height="500">
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### 0.4 - This is displaying the editing of an existing user:
+<img src="https://github.com/M-antunes/CRUD/blob/main/CRUD/user_editing.png" height="500">   <img src="https://github.com/M-antunes/CRUD/blob/main/CRUD/user_added.png" height="500">
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 0.5 - This is displaying an user being deleted:
+<img src="https://github.com/M-antunes/CRUD/blob/main/CRUD/user_deleting.png" height="500"> <img src="https://github.com/M-antunes/CRUD/blob/main/CRUD/user_deleted.png" height="500">
+
+### 0.6 - This is displaying the adding of a new user:
+<img src="https://github.com/M-antunes/CRUD/blob/main/CRUD/add_user.png" height="500">   <img src="https://github.com/M-antunes/CRUD/blob/main/CRUD/user_added.png" height="500">
+
